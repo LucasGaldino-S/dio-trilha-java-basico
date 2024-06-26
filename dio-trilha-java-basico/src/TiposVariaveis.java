@@ -1,8 +1,15 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        final double PI = 3.14;
+        int idade = 21;
+        double salarioAnalista = 3123.50;
+        boolean lucasLindo = true;
+        final char letraDoAmorDaMinhaVida = 'g';
 
-        System.out.println(PI);
+
+        System.out.println("Idade: " + idade);
+        System.out.println("Salário do Analista: " + salarioAnalista);
+        System.out.println("Lucas é lindo? " + lucasLindo);
+        System.out.println("Letra do amor da minha vida: " + letraDoAmorDaMinhaVida);
     }
 }
 
